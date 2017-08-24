@@ -14,7 +14,7 @@
 		09B0E9E41F4ED698004B9C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B0E9E31F4ED698004B9C2A /* Assets.xcassets */; };
 		09B0E9E71F4ED698004B9C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B0E9E51F4ED698004B9C2A /* LaunchScreen.storyboard */; };
 		09B0E9F41F4ED6D1004B9C2A /* JJPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B0E9F31F4ED6D1004B9C2A /* JJPayManager.m */; };
-		8F68116CA68B4CAB4D507CA7 /* Pods_JJPayManagerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BDDFD9BC8CF8581845ED6E /* Pods_JJPayManagerDemo.framework */; };
+		9FC80942B76C98DDA48351CF /* libPods-JJPayManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 601F06D263341A40D4CB9721 /* libPods-JJPayManagerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		09B0E9E81F4ED698004B9C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B0E9F21F4ED6D1004B9C2A /* JJPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJPayManager.h; sourceTree = "<group>"; };
 		09B0E9F31F4ED6D1004B9C2A /* JJPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJPayManager.m; sourceTree = "<group>"; };
-		29BDDFD9BC8CF8581845ED6E /* Pods_JJPayManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJPayManagerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		601F06D263341A40D4CB9721 /* libPods-JJPayManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJPayManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A876F02FAEE62A25201B08C /* Pods-JJPayManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPayManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJPayManagerDemo/Pods-JJPayManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8EE595C2833AF3BD737F2427 /* Pods-JJPayManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJPayManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJPayManagerDemo/Pods-JJPayManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F68116CA68B4CAB4D507CA7 /* Pods_JJPayManagerDemo.framework in Frameworks */,
+				9FC80942B76C98DDA48351CF /* libPods-JJPayManagerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 		C9AAF0A2967A12E45ACE1F1D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				29BDDFD9BC8CF8581845ED6E /* Pods_JJPayManagerDemo.framework */,
+				601F06D263341A40D4CB9721 /* libPods-JJPayManagerDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
