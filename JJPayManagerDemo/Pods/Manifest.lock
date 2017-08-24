@@ -1,0 +1,17 @@
+PODS:
+  - AlipaySDK-2.0 (15.0.2):
+    - AlipaySDK-2.0/Core (= 15.0.2)
+  - AlipaySDK-2.0/Core (15.0.2)
+  - WechatOpenSDK (1.7.9)
+
+DEPENDENCIES:
+  - AlipaySDK-2.0
+  - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  AlipaySDK-2.0: 346e006fd2999d5ca5dd8869d03bc0a260fc48e0
+  WechatOpenSDK: 1fe7e3b07db860d6a936c3ff4a5aba6b890958d9
+
+PODFILE CHECKSUM: 47e3f8da27b0a042a89229b622d8d6e1d109eaf0
+
+COCOAPODS: 1.3.1

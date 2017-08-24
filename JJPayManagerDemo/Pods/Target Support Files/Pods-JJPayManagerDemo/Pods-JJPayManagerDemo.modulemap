@@ -1,0 +1,6 @@
+framework module Pods_JJPayManagerDemo {
+  umbrella header "Pods-JJPayManagerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

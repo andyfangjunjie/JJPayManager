@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target 'JJPayManagerDemo' do
+use_frameworks!
+
+pod 'AlipaySDK-2.0'
+pod 'WechatOpenSDK'
+
+end
