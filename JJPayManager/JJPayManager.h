@@ -26,7 +26,7 @@ typedef void(^JJPayManagerWechatPayResult)(PayResp *resp);
 @class JJPayManager;
 
 @protocol JJPayManagerDelegate <NSObject>
-
+/** 微信原生支付回调 */
 - (void)onResp:(BaseResp *)resp;
 
 @end

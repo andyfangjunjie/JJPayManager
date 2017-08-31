@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'JJPayManager'
-s.version = '0.0.4'
+s.version = '0.0.5'
 s.platform = :ios, '7.0'
 s.summary = '一个非常好用的支付管理类（支付宝、微信支付），集成简单！'
 s.homepage = 'https://github.com/andyfangjunjie/JJPayManager'
