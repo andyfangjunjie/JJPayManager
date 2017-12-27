@@ -9,6 +9,18 @@
 #import <Foundation/Foundation.h>
 #import <AlipaySDK/AlipaySDK.h>
 #import <WXApi.h>
+#import <UPPaySDK/UPPaymentControl.h>
+
+/**
+ 环境
+
+ - JJPayManagerModeDevelopment: 开发环境
+ - JJPayManagerModeDistribution: 生产环境
+ */
+typedef NS_ENUM(NSInteger, JJPayManagerMode) {
+    JJPayManagerModeDevelopment,
+    JJPayManagerModeDistribution
+};
 
 /**
  支付宝回调
@@ -19,9 +31,16 @@ typedef void(^JJPayManagerAlipayResult)(NSDictionary *resultStatus);
 /**
  微信支付回调
  
- @param resp 对调对象
+ @param resp 回调对象
  */
 typedef void(^JJPayManagerWechatPayResult)(PayResp *resp);
+/**
+ 银联支付回调
+ 
+ @param code 错误代码
+ @param data 成功返回数据
+ */
+typedef void(^JJPayManagerUpPayResult)(NSString *code,NSDictionary *data);
 
 @class JJPayManager;
 
@@ -61,9 +80,9 @@ typedef void(^JJPayManagerWechatPayResult)(PayResp *resp);
  @param success 成功回调
  @param failure 失败回调
  */
-- (void)alipayOrder:(NSString *)payOrder
-            success:(JJPayManagerAlipayResult)success
-            failure:(JJPayManagerAlipayResult)failure;
+- (void)alipayWithOrder:(NSString *)payOrder
+                success:(JJPayManagerAlipayResult)success
+                failure:(JJPayManagerAlipayResult)failure;
 
 #pragma mark - 微信支付
 /**
@@ -85,4 +104,55 @@ typedef void(^JJPayManagerWechatPayResult)(PayResp *resp);
                     success:(JJPayManagerWechatPayResult)success
                     failure:(JJPayManagerWechatPayResult)failure;
 
+#pragma mark - 银联支付
+/**
+ 银联支付(配置scheme = 工程名+Uppay)
+
+ @param payOrder 订单号
+ @param mode 模式 默认开发环境
+ @param viewController 调用的控制器
+ @param success 成功回调
+ @param failure 失败回调
+ */
+- (void)upPayWithOrder:(NSString *)payOrder
+                  mode:(JJPayManagerMode)mode
+        viewController:(UIViewController *)viewController
+               success:(JJPayManagerUpPayResult)success
+               failure:(JJPayManagerUpPayResult)failure;
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

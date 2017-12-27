@@ -25,6 +25,16 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>中国银联 版权所有.</string>
+			<key>License</key>
+			<string>Copyright</string>
+			<key>Title</key>
+			<string>UPPaySDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>Copyright 2017 tencent.com. All rights reserved.
 </string>
 			<key>License</key>

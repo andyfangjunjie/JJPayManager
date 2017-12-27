@@ -19,6 +19,12 @@
 @property (nonatomic,strong) JJPayManagerWechatPayResult wechatPaySuccessBlock;
 /** 微信失败回调 */
 @property (nonatomic,strong) JJPayManagerWechatPayResult wechatPayFailureBlock;
+/** 银联成功回调 */
+@property (nonatomic,strong) JJPayManagerUpPayResult upPaySuccessBlock;
+/** 银联失败回调 */
+@property (nonatomic,strong) JJPayManagerUpPayResult upPayFailureBlock;
+
+
 @end
 
 @implementation JJPayManager
@@ -50,9 +56,9 @@
  @param success 成功回调
  @param failure 失败回调
  */
-- (void)alipayOrder:(NSString *)payOrder
-            success:(JJPayManagerAlipayResult)success
-            failure:(JJPayManagerAlipayResult)failure {
+- (void)alipayWithOrder:(NSString *)payOrder
+                success:(JJPayManagerAlipayResult)success
+                failure:(JJPayManagerAlipayResult)failure {
     
     self.alipaySuccessBlock = success;
     self.alipayFailureBlock = failure;
@@ -113,7 +119,46 @@
     req.sign = sign;
     [WXApi sendReq:req];
 }
-
+#pragma mark - 银联支付
+/**
+ 银联支付(配置scheme = 工程名+Uppay)
+ 
+ @param payOrder 订单号
+ @param mode 模式 默认开发环境
+ @param viewController 调用的控制器
+ @param success 成功回调
+ @param failure 失败回调
+ */
+- (void)upPayWithOrder:(NSString *)payOrder
+                  mode:(JJPayManagerMode)mode
+        viewController:(UIViewController *)viewController
+               success:(JJPayManagerUpPayResult)success
+               failure:(JJPayManagerUpPayResult)failure {
+    self.upPaySuccessBlock = success;
+    self.upPayFailureBlock = failure;
+    
+    NSString *scheme = [NSString stringWithFormat:@"%@UpPay",[[NSBundle mainBundle] infoDictionary][@"CFBundleExecutable"]];
+    [[UPPaymentControl defaultControl] startPay:payOrder fromScheme:scheme mode:mode == JJPayManagerModeDistribution ? @"00" : @"01" viewController:viewController];
+}
+/**
+ 银联支付（APP回调）AppDelegate用到
+ 
+ @param paymentResult 支付回调URL
+ */
+- (void)upPayProcessOrderWithPaymentResult:(NSURL *)paymentResult {
+    [[UPPaymentControl defaultControl] handlePaymentResult:paymentResult completeBlock:^(NSString *code, NSDictionary *data) {
+       
+        if ([code isEqualToString:@"success"]) {
+            !self.upPaySuccessBlock ? : self.upPaySuccessBlock(code,data);
+        } else if ([code isEqualToString:@"cancel"]) {
+            !self.upPayFailureBlock ? : self.upPayFailureBlock(code,data);
+        } else if ([code isEqualToString:@"fail"]) {
+            !self.upPayFailureBlock ? : self.upPayFailureBlock(code,data);
+        } else {
+            !self.upPayFailureBlock ? : self.upPayFailureBlock(code,data);
+        }
+    }];
+}
 #pragma mark - 处理AppDelegate中的回调
 /**
  处理AppDelegate中的回调
@@ -134,6 +179,10 @@
     } else if ([url.host isEqualToString:@"pay"]) {
         //微信处理
         return [WXApi handleOpenURL:url delegate:self];
+    } else if ([url.host isEqualToString:@"uppayresult"]) {
+        //银联支付处理
+        [self upPayProcessOrderWithPaymentResult:url];
+        return YES;
     } else {
         //第三方跳转处理
         return YES;
@@ -156,6 +205,7 @@
         [self.delegate onResp:resp];
     }
 }
+
 @end
 
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,14 +22,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYs-md-sEu">
-                                <rect key="frame" x="187.5" y="318.5" width="187.5" height="30"/>
+                                <rect key="frame" x="156.5" y="318.5" width="62" height="30"/>
                                 <state key="normal" title="微信支付"/>
                                 <connections>
                                     <action selector="wechatPayButtonClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="2xX-4s-RML"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUB-Ho-Oqn">
+                                <rect key="frame" x="156.5" y="368.5" width="62" height="30"/>
+                                <state key="normal" title="银联支付"/>
+                                <connections>
+                                    <action selector="uppayButtonClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="OgO-ty-6rl"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDq-7U-K6l">
-                                <rect key="frame" x="0.0" y="318.5" width="187.5" height="30"/>
+                                <rect key="frame" x="149" y="268.5" width="77" height="30"/>
                                 <state key="normal" title="支付宝支付"/>
                                 <connections>
                                     <action selector="alipayButtonClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wz5-4M-kgN"/>
@@ -38,18 +45,18 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="eYs-md-sEu" secondAttribute="trailing" id="6nJ-PS-heZ"/>
-                            <constraint firstItem="IDq-7U-K6l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KkE-Mw-MtH"/>
-                            <constraint firstItem="eYs-md-sEu" firstAttribute="leading" secondItem="IDq-7U-K6l" secondAttribute="trailing" id="Z82-Wc-0Gr"/>
-                            <constraint firstItem="IDq-7U-K6l" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aK5-5D-FkY"/>
-                            <constraint firstItem="eYs-md-sEu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cxp-iJ-Rjf"/>
-                            <constraint firstItem="eYs-md-sEu" firstAttribute="width" secondItem="IDq-7U-K6l" secondAttribute="width" id="h6s-hA-gA1"/>
+                            <constraint firstItem="eYs-md-sEu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="97l-MD-Bdm"/>
+                            <constraint firstItem="bUB-Ho-Oqn" firstAttribute="top" secondItem="eYs-md-sEu" secondAttribute="bottom" constant="20" id="Kap-hf-xD9"/>
+                            <constraint firstItem="IDq-7U-K6l" firstAttribute="centerX" secondItem="eYs-md-sEu" secondAttribute="centerX" id="P56-IR-0pe"/>
+                            <constraint firstItem="bUB-Ho-Oqn" firstAttribute="centerX" secondItem="eYs-md-sEu" secondAttribute="centerX" id="Us6-NH-lJh"/>
+                            <constraint firstItem="eYs-md-sEu" firstAttribute="top" secondItem="IDq-7U-K6l" secondAttribute="bottom" constant="20" id="dfu-rL-cV2"/>
+                            <constraint firstItem="eYs-md-sEu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vbo-OM-AAT"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-148" y="121"/>
+            <point key="canvasLocation" x="-180" y="41"/>
         </scene>
     </scenes>
 </document>

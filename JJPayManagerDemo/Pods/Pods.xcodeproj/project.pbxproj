@@ -14,25 +14,27 @@
 
 /* Begin PBXFileReference section */
 		05AA999F677296BC349D5DBDB0D54E00 /* Pods-JJPayManagerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJPayManagerDemo-resources.sh"; sourceTree = "<group>"; };
-		14339F5D15F7D740ECF1F32BFC2034D8 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.7.9/WechatAuthSDK.h; sourceTree = "<group>"; };
-		1F63C46993D5C4563B6D20DDDEE60B3E /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.7.9/WXApiObject.h; sourceTree = "<group>"; };
-		202C75EDDB8A0AA1EF86A45244000309 /* ANAlipayResultCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANAlipayResultCode.h; path = sources/extensions/ANAlipayResultCode.h; sourceTree = "<group>"; };
+		1C619C6232DF729A2ACA57690E39436B /* ANAlipayResultCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANAlipayResultCode.h; path = sources/extensions/ANAlipayResultCode.h; sourceTree = "<group>"; };
+		1EE54986925E99A2B6EC729B36B259FC /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.7.9/WXApi.h; sourceTree = "<group>"; };
+		1FB979A4B05F768C5E5E691BF772DFEC /* UPPaymentControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPPaymentControl.h; path = libUPPaySDK/UPPaymentControl.h; sourceTree = "<group>"; };
 		2333D1D6B7FA44680CBA590ED51D0949 /* Pods-JJPayManagerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJPayManagerDemo-dummy.m"; sourceTree = "<group>"; };
+		31D5A1BCFC2E5E0ED155440AE10C7454 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.7.9/WXApiObject.h; sourceTree = "<group>"; };
 		39B0961E5CDA094716D72E16F33B8ACF /* Pods-JJPayManagerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJPayManagerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4177F473D5D72F2F2C028A34724076C3 /* Pods-JJPayManagerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJPayManagerDemo-frameworks.sh"; sourceTree = "<group>"; };
 		4B71D7BBB34C26F1277BEA383CF3FF45 /* Pods-JJPayManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJPayManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		6273648D04A300824B76C9679A7EA9F1 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7962BA24A55A160A30C8ED7321D1C16C /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.7.9/libWeChatSDK.a; sourceTree = "<group>"; };
+		7F7DD3B9971F3FC289940DF7968F0019 /* libPaymentControl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPaymentControl.a; path = libUPPaySDK/libPaymentControl.a; sourceTree = "<group>"; };
+		82678D6242C3299F0578E23E44628C94 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.7.9/WechatAuthSDK.h; sourceTree = "<group>"; };
 		873671EB907759027927B183FD8642BE /* Pods-JJPayManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJPayManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8A9C564F02D6406DDC3F94DBBAEA5CFA /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		998C2F59E1FFDA65A2690C5671834468 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D2F916E5B64EC01AA95A8B4E5BEE4CD /* Pods-JJPayManagerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJPayManagerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		BD16FC4BA06C2D562098D45E6FA284DF /* Pods_JJPayManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJPayManagerDemo.framework; path = "Pods-JJPayManagerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F12AC386FC8D4C9C0E86D458197D6D /* Pods-JJPayManagerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJPayManagerDemo-umbrella.h"; sourceTree = "<group>"; };
-		CB6FCDF74347BF0FC727E7434DD71B66 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.7.9/WXApi.h; sourceTree = "<group>"; };
 		DAF9E653A5B19A3D34A185765F7EFC0F /* Pods-JJPayManagerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JJPayManagerDemo.modulemap"; sourceTree = "<group>"; };
-		F1794815A0A5385A479084AF9EAA16CF /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		FFAB0B19D10456CE161D7F65CE41166B /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.7.9/libWeChatSDK.a; sourceTree = "<group>"; };
+		F11F470193B2A0F2D63617309DAAE615 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,14 +49,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		128886165F7F0C955A8DE00A90CC0DBD /* Core */ = {
+		28F22E713235883ECBA608A440CD673A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				202C75EDDB8A0AA1EF86A45244000309 /* ANAlipayResultCode.h */,
-				91F5BCC68E2E573605BDD5AE403DFC76 /* Frameworks */,
-				C18C50CD395D321BEF214A2C65012328 /* Resources */,
+				7F7DD3B9971F3FC289940DF7968F0019 /* libPaymentControl.a */,
 			);
-			name = Core;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		32D9F127B557054D3D30BC97AFA353A3 /* Pods-JJPayManagerDemo */ = {
@@ -75,16 +75,32 @@
 			path = "Target Support Files/Pods-JJPayManagerDemo";
 			sourceTree = "<group>";
 		};
-		3EBD3CAA4364C1A0F6B183480BA6F869 /* WechatOpenSDK */ = {
+		564CE2202B986D3DBD01093BCA7B21EC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				14339F5D15F7D740ECF1F32BFC2034D8 /* WechatAuthSDK.h */,
-				CB6FCDF74347BF0FC727E7434DD71B66 /* WXApi.h */,
-				1F63C46993D5C4563B6D20DDDEE60B3E /* WXApiObject.h */,
-				97168672319E8F6384DDD0063726A69A /* Frameworks */,
+				8A9C564F02D6406DDC3F94DBBAEA5CFA /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5DDD35D7A5DEB55D250F2C4F6B7FACCB /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				82678D6242C3299F0578E23E44628C94 /* WechatAuthSDK.h */,
+				1EE54986925E99A2B6EC729B36B259FC /* WXApi.h */,
+				31D5A1BCFC2E5E0ED155440AE10C7454 /* WXApiObject.h */,
+				65BEBF9B37A5A6CC5708EAE05FC14C02 /* Frameworks */,
 			);
 			name = WechatOpenSDK;
 			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		65BEBF9B37A5A6CC5708EAE05FC14C02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7962BA24A55A160A30C8ED7321D1C16C /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		69B507B75598C4F9FB8FF5BFB8D16C26 /* Targets Support Files */ = {
@@ -100,35 +116,28 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F7D71A68C236770EDF4AF5201DD0A732 /* Pods */,
+				D602506FF9E0D239D4A6F8AEA574519A /* Pods */,
 				DA196C4AED5F5F3F58701EC7A6766447 /* Products */,
 				69B507B75598C4F9FB8FF5BFB8D16C26 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		91F5BCC68E2E573605BDD5AE403DFC76 /* Frameworks */ = {
+		B790EB72AF114390439D31F530F6428E /* UPPaySDK */ = {
 			isa = PBXGroup;
 			children = (
-				F1794815A0A5385A479084AF9EAA16CF /* AlipaySDK.framework */,
+				1FB979A4B05F768C5E5E691BF772DFEC /* UPPaymentControl.h */,
+				28F22E713235883ECBA608A440CD673A /* Frameworks */,
 			);
-			name = Frameworks;
+			name = UPPaySDK;
+			path = UPPaySDK;
 			sourceTree = "<group>";
 		};
-		97168672319E8F6384DDD0063726A69A /* Frameworks */ = {
+		B8EFF5F9B4E18AA8A13A337411E3B615 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FFAB0B19D10456CE161D7F65CE41166B /* libWeChatSDK.a */,
+				F11F470193B2A0F2D63617309DAAE615 /* AlipaySDK.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ACA125A45240C2CEE68D93EAA196D72E /* AlipaySDK-2.0 */ = {
-			isa = PBXGroup;
-			children = (
-				128886165F7F0C955A8DE00A90CC0DBD /* Core */,
-			);
-			name = "AlipaySDK-2.0";
-			path = "AlipaySDK-2.0";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -139,20 +148,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C18C50CD395D321BEF214A2C65012328 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6273648D04A300824B76C9679A7EA9F1 /* AlipaySDK.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D602506FF9E0D239D4A6F8AEA574519A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F67E622CE5DBCECFC8048AA6EB9B4547 /* AlipaySDK-2.0 */,
+				B790EB72AF114390439D31F530F6428E /* UPPaySDK */,
+				5DDD35D7A5DEB55D250F2C4F6B7FACCB /* WechatOpenSDK */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		DA196C4AED5F5F3F58701EC7A6766447 /* Products */ = {
@@ -163,13 +174,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7D71A68C236770EDF4AF5201DD0A732 /* Pods */ = {
+		F67E622CE5DBCECFC8048AA6EB9B4547 /* AlipaySDK-2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				ACA125A45240C2CEE68D93EAA196D72E /* AlipaySDK-2.0 */,
-				3EBD3CAA4364C1A0F6B183480BA6F869 /* WechatOpenSDK */,
+				F6E220F5ADC24695382014AC6B5481EE /* Core */,
 			);
-			name = Pods;
+			name = "AlipaySDK-2.0";
+			path = "AlipaySDK-2.0";
+			sourceTree = "<group>";
+		};
+		F6E220F5ADC24695382014AC6B5481EE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1C619C6232DF729A2ACA57690E39436B /* ANAlipayResultCode.h */,
+				B8EFF5F9B4E18AA8A13A337411E3B615 /* Frameworks */,
+				564CE2202B986D3DBD01093BCA7B21EC /* Resources */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,100 +262,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3890D7C92DE120C2BA762135796CFA80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		3BADA370475E93942AD0153572E1B595 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		7ADC0579D86DBF1655086D7313E26FEA /* Release */ = {
+		38C965255300D2C1E6B9BE579B37D0BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 873671EB907759027927B183FD8642BE /* Pods-JJPayManagerDemo.release.xcconfig */;
 			buildSettings = {
@@ -343,20 +271,104 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-JJPayManagerDemo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JJPayManagerDemo/Pods-JJPayManagerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JJPayManagerDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C12D29221D2D59BAEABF0CDB06B92EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B71D7BBB34C26F1277BEA383CF3FF45 /* Pods-JJPayManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JJPayManagerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JJPayManagerDemo/Pods-JJPayManagerDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -368,41 +380,65 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		E23547D4A1FDBCEE15D478289DD18732 /* Debug */ = {
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B71D7BBB34C26F1277BEA383CF3FF45 /* Pods-JJPayManagerDemo.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JJPayManagerDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JJPayManagerDemo/Pods-JJPayManagerDemo.modulemap";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JJPayManagerDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
@@ -412,8 +448,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BADA370475E93942AD0153572E1B595 /* Debug */,
-				3890D7C92DE120C2BA762135796CFA80 /* Release */,
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -421,8 +457,8 @@
 		D2A2D11BF253D9E599966F651572C335 /* Build configuration list for PBXNativeTarget "Pods-JJPayManagerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E23547D4A1FDBCEE15D478289DD18732 /* Debug */,
-				7ADC0579D86DBF1655086D7313E26FEA /* Release */,
+				C12D29221D2D59BAEABF0CDB06B92EDB /* Debug */,
+				38C965255300D2C1E6B9BE579B37D0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

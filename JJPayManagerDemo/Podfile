@@ -1,8 +1,8 @@
-platform :ios, ‘7.0’
+platform :ios, ‘8.0’
 
 target 'JJPayManagerDemo' do
 use_frameworks!
 pod 'AlipaySDK-2.0'
 pod 'WechatOpenSDK'
-
+pod 'UPPaySDK'
 end

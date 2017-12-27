@@ -6,6 +6,10 @@ This application makes use of the following third party libraries:
 支付宝(中国)网络技术有限公司 ^? 版权所有.
 
 
+## UPPaySDK
+
+中国银联 版权所有.
+
 ## WechatOpenSDK
 
 Copyright 2017 tencent.com. All rights reserved.

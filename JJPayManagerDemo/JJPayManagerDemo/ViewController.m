@@ -45,11 +45,23 @@
  */
 - (IBAction)alipayButtonClick {
     
-    [[JJPayManager sharedManager] alipayOrder:@"" success:^(NSDictionary *resultStatus) {
+    [[JJPayManager sharedManager] alipayWithOrder:@"" success:^(NSDictionary *resultStatus) {
         
     } failure:^(NSDictionary *resultStatus) {
         
     }];
+}
+/**
+ 银联支付
+ */
+- (IBAction)uppayButtonClick {
+    
+    [[JJPayManager sharedManager] upPayWithOrder:@"" mode:JJPayManagerModeDevelopment viewController:self success:^(NSString *code, NSDictionary *data) {
+        
+    } failure:^(NSString *code, NSDictionary *data) {
+        
+    }];
+    
 }
 
 @end
